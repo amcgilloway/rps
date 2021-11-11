@@ -10,7 +10,8 @@ def player_choice():
     return choice
 
 def create_player(name, choice):
-    pass
+    new_player = Player(name, choice)
+    return new_player
 
 def create_computer_player():
     pass
